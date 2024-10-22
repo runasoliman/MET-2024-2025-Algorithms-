@@ -8,7 +8,7 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
         print(f"Step {i + 1}: {arr}")
-array = [64, 25, 12, 22, 11]
+array = [55, 30, 12, 27, 10]
 print("Original array:", array)
 selection_sort(array)
 print("Sorted array:", )
